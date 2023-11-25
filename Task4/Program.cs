@@ -1,6 +1,6 @@
 ﻿Console.Write("Enter even number N: ");
 int N = Convert.ToInt32(Console.ReadLine());
-
+/*
 int copyN = N;
 
 int count = 0;
@@ -20,11 +20,10 @@ while (N > 9)
       N %= d;
       d/=10;
 }
-Console.Write(N);
+Console.Write(N);*/
 
-/*string str = N.ToString();
+string str = N.ToString();
 char[] c = str.ToCharArray();
 System.Console.WriteLine(string.Join(", ", c));
 
-Console.WriteLine(N.ToString().Length);
-*/
+//Console.WriteLine(N.ToString().Length);
